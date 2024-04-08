@@ -1,0 +1,106 @@
+.output {
+	width: 500px;
+	height: 550px;
+	border-radius: 30px;
+	transition: 0.05s;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background: none;
+}
+
+* {
+	overflow: hidden;
+	font-family: monospace;
+}
+
+body {
+	background-color: rgb(2, 6, 46);
+}
+
+input[type='range'] {
+	cursor: grab;
+	width: 13vw;
+}
+
+input[type='range']:active {
+	cursor: grabbing;
+}
+
+.sep {
+	font-size: inherit;
+}
+
+p {
+	color: beige;
+}
+
+* {
+	font-family: dosis;
+}
+
+.info {
+	margin-left: 30px;
+	line-height: 30px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.grid {
+	display: flex;
+}
+
+.link {
+	text-decoration: none;
+	color: beige;
+	top: 0;
+	font-size: 3rem;
+	gap: 40px;
+	transition: 0.2s linear;
+}
+
+.items {
+	display: flex;
+	position: relative;
+	gap: 30px;
+	margin-left: 5px;
+}
+
+.tw:hover {
+	-webkit-text-stroke: 2px rgba(29 161 242);
+	color: rgba(0, 0, 0, 0);
+}
+
+.dc:hover {
+	-webkit-text-stroke: 2px #5865f2;
+	color: rgba(0, 0, 0, 0);
+}
+
+.yt:hover {
+	-webkit-text-stroke: 2px rgba(230 0 0);
+	color: rgba(0, 0, 0, 0);
+}
+
+input[type='text'] {
+	width: 100px;
+	background: none;
+	border-top: none;
+	border-bottom: none;
+	color: beige;
+	outline: none;
+	border-right: 2px beige;
+	padding-left: 10px;
+}
+
+#timer {
+	position: absolute;
+	top: 0;
+	left: 1rem;
+	user-select: none;
+}
